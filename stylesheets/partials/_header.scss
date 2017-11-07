@@ -1,0 +1,29 @@
+header{
+	height:100px;
+}
+header .container{
+	position:fixed;
+	align-items: center;
+	display:flex;
+	justify-content: space-between;
+	z-index:4;
+	background-color: white;
+	width:95%;
+}
+
+nav ul{
+	display:flex;
+	list-style:none;
+}
+nav ul li{
+	padding: 0 20px;
+	font-family: 'Abel', sans-serif;
+	a{
+	text-decoration: none;
+	color:black;
+	transition: .2s ease;
+	}
+	a:hover{
+		color:#cccccc;
+	}
+}

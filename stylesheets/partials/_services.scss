@@ -1,0 +1,39 @@
+#first{
+}
+#second{
+}
+#third{
+}
+.row{
+	display:grid;
+	h1{
+		font-size:24px;
+	}
+}
+
+#services{
+	font-family: 'Quicksand', sans-serif;
+	background-color: #f2f2f2;
+	grid-template-columns: 2fr 1fr 1fr;
+	padding:100px 0px;
+	margin:100px 0px;
+	font-weight:lighter;
+}
+#firstHeader{
+	font-size:32px;
+}
+#services .col .container{
+	color:#808080;
+	a{
+		color:#808080;
+		text-decoration: none;
+		transition: .2s ease;
+	}
+	a:hover{
+		color:#cccccc;
+	}
+	ul{
+		list-style:none;
+		padding:0;
+	}
+}

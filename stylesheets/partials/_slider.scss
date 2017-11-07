@@ -1,0 +1,49 @@
+#slide1{
+	background: url('img/genji.png')no-repeat center center;
+	background-size: cover;
+
+}
+#slide2{
+	background: url('img/smash4.jpg')no-repeat center center;
+	background-size: cover;
+}
+#slider{
+	height: 500px;
+	width:100%;
+	position:relative;
+}
+#long-slider{
+	height:100%;
+	white-space:nowrap;
+	overflow-x:hidden;
+	font-size:0;
+	z-index:-1;
+}
+#buttons{
+	position:absolute;
+	height:100%;
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	top:0;
+	left:0;
+	a{
+		text-decoration: none;
+		display:block;
+		padding:50px 20px;
+	}
+	a:hover{
+		background: rgba(0,0,0,0.2);
+	}
+}
+.arrow{
+	height:50px;
+}
+.slide{
+	display:inline-block;
+	height:100%;
+	width:100%;
+	margin:0;
+	transition:2s ease;
+}

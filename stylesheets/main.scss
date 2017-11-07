@@ -1,0 +1,13 @@
+body,html{
+	height: 100%;
+	width: 100%;
+}
+#home {
+	@import 'modules/globals';
+	@import 'partials/header';
+	@import 'partials/slider';
+	@import 'partials/services';
+	@import 'partials/gallery';
+	@import 'partials/bottomSlider';
+	@import 'partials/footer';
+}
